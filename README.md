@@ -1,4 +1,4 @@
-# Database-Simualtion-repo
+# Database-Simulation-repo
 
 The project's goal is to simulate a database. 
 
