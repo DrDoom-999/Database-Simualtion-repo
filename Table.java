@@ -58,8 +58,9 @@ public class Table {
 
     public void insert(String[] input){
 
-        if(input.length != 4){
-           return; 
+        if(input.length != columns){
+
+            throw new ToFewElementsInArrayException();
         }
 
         for(int i = 0; i < input.length; i++){
